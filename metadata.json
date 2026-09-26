@@ -1,0 +1,6 @@
+{
+  "name": "القمة للمقاولات والديكور",
+  "description": "الموقع الرسمي لشركة القمة للمقاولات العامة والديكور والتصميم الداخلي وأعمال التشطيبات الفاخرة وتسليم المفتاح بأعلى معايير الجودة والإتقان.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
