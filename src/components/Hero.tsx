@@ -11,7 +11,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
       {/* Background Image with Dark Scrim Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_luxury_interior_1790450309959.jpg"
+          src="./images/hero_luxury_interior_1790450309959.jpg"
           alt="صالون وتصميم معماري داخلي فاخر - القمة للمقاولات والديكور"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-105 transform motion-safe:animate-pulse-subtle filter brightness-75"

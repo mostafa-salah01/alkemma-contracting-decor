@@ -27,11 +27,11 @@ export const PROJECTS: Project[] = [
     duration: '14 شهراً',
     year: '2025',
     client: 'عميل خاص',
-    image: '/src/assets/images/project_luxury_palace_1790450321881.jpg',
+    image: './images/project_luxury_palace_1790450321881.jpg',
     galleryImages: [
-      '/src/assets/images/project_luxury_palace_1790450321881.jpg',
-      '/src/assets/images/hero_luxury_interior_1790450309959.jpg',
-      '/src/assets/images/project_deluxe_majlis_1790450334131.jpg'
+      './images/project_luxury_palace_1790450321881.jpg',
+      './images/hero_luxury_interior_1790450309959.jpg',
+      './images/project_deluxe_majlis_1790450334131.jpg'
     ],
     description: 'تنفيذ كامل لأعمال الإنشاءات العظم والتشطيب الفاخر بنظام تسليم المفتاح. واجهات من حجر الترافرتين الإيطالي مع نوافذ زجاجية بانورامية وإضاءة معمارية ذكية متكاملة ومسبح إنفينيتي.',
     scope: [
@@ -53,10 +53,10 @@ export const PROJECTS: Project[] = [
     duration: '4 أشهر',
     year: '2025',
     client: 'فيلا سكنية خاصة',
-    image: '/src/assets/images/project_deluxe_majlis_1790450334131.jpg',
+    image: './images/project_deluxe_majlis_1790450334131.jpg',
     galleryImages: [
-      '/src/assets/images/project_deluxe_majlis_1790450334131.jpg',
-      '/src/assets/images/hero_luxury_interior_1790450309959.jpg'
+      './images/project_deluxe_majlis_1790450334131.jpg',
+      './images/hero_luxury_interior_1790450309959.jpg'
     ],
     description: 'تصميم وتنفيذ ديكورات داخلية بطابع نيودلاسيكي معاصر يجمع بين دفء خشب الجوز المضلع وفخامة الرخام الطبيعي مع توزيع هندسي مدروس للإنارة المخفية والسبوت لايت مانع للتوهج.',
     scope: [
@@ -78,10 +78,10 @@ export const PROJECTS: Project[] = [
     duration: '5 أشهر',
     year: '2026',
     client: 'مجموعة استثمارية قابضة',
-    image: '/src/assets/images/project_executive_office_1790450345406.jpg',
+    image: './images/project_executive_office_1790450345406.jpg',
     galleryImages: [
-      '/src/assets/images/project_executive_office_1790450345406.jpg',
-      '/src/assets/images/hero_luxury_interior_1790450309959.jpg'
+      './images/project_executive_office_1790450345406.jpg',
+      './images/hero_luxury_interior_1790450309959.jpg'
     ],
     description: 'تشطيب وتجهيز مقر إداري كامل للمدراء التنفيذيين وقاعات اجتماعات مزودة بأحدث أنظمة المؤتمرات الذكية، فواصل زجاجية بإطارات برونزية وألواح خشبية عازلة للصوت.',
     scope: [
@@ -103,10 +103,10 @@ export const PROJECTS: Project[] = [
     duration: '6 أشهر',
     year: '2025',
     client: 'مالك خاص',
-    image: '/src/assets/images/hero_luxury_interior_1790450309959.jpg',
+    image: './images/hero_luxury_interior_1790450309959.jpg',
     galleryImages: [
-      '/src/assets/images/hero_luxury_interior_1790450309959.jpg',
-      '/src/assets/images/project_deluxe_majlis_1790450334131.jpg'
+      './images/hero_luxury_interior_1790450309959.jpg',
+      './images/project_deluxe_majlis_1790450334131.jpg'
     ],
     description: 'إعادة تصميم وتشطيب بنتهاوس فاخر بأسقف مرتفعة وإطلالة بانورامية على مدينة الرياض. تم استخدام بلاطات كلكتا جولد الضخمة وتصميم شرفة خارجية مكيفة بديكور عصري.',
     scope: [
@@ -128,10 +128,10 @@ export const PROJECTS: Project[] = [
     duration: '11 شهراً',
     year: '2025',
     client: 'عائلة راقية',
-    image: '/src/assets/images/project_luxury_palace_1790450321881.jpg',
+    image: './images/project_luxury_palace_1790450321881.jpg',
     galleryImages: [
-      '/src/assets/images/project_luxury_palace_1790450321881.jpg',
-      '/src/assets/images/project_deluxe_majlis_1790450334131.jpg'
+      './images/project_luxury_palace_1790450321881.jpg',
+      './images/project_deluxe_majlis_1790450334131.jpg'
     ],
     description: 'مشروع مقاولات عامة وتشطيب ديلوكس شامل بدءاً من أعمال الهيكل الإنشائي وحتى تركيب أطقم الحمامات والمطابخ والنجف الديكوري وتسليم المفتاح بالضمان الشامل.',
     scope: [
@@ -153,10 +153,10 @@ export const PROJECTS: Project[] = [
     duration: '4.5 أشهر',
     year: '2025',
     client: 'مركز طبي تخصصي',
-    image: '/src/assets/images/project_executive_office_1790450345406.jpg',
+    image: './images/project_executive_office_1790450345406.jpg',
     galleryImages: [
-      '/src/assets/images/project_executive_office_1790450345406.jpg',
-      '/src/assets/images/hero_luxury_interior_1790450309959.jpg'
+      './images/project_executive_office_1790450345406.jpg',
+      './images/hero_luxury_interior_1790450309959.jpg'
     ],
     description: 'تشطيب طبي وتجاري راقٍ يلبي كافة اشتراطات وزارة الصحة والدفاع المدني مع إبراز هوية معمارية مريحة للمراجعين تعتمد على المنحنيات العضوية والألوان الطبيعية الهادئة.',
     scope: [

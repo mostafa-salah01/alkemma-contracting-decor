@@ -66,7 +66,7 @@ export const BeforeAfterSlider: React.FC = () => {
           >
             {/* "After" Image (Complete luxury finish) - Base layer */}
             <img
-              src="/src/assets/images/hero_luxury_interior_1790450309959.jpg"
+              src="./images/hero_luxury_interior_1790450309959.jpg"
               alt="بعد التشطيب الفاخر - القمة للمقاولات"
               referrerPolicy="no-referrer"
               className="absolute inset-0 w-full h-full object-cover pointer-events-none"
@@ -78,7 +78,7 @@ export const BeforeAfterSlider: React.FC = () => {
               style={{ width: `${sliderPosition}%` }}
             >
               <img
-                src="/src/assets/images/hero_luxury_interior_1790450309959.jpg"
+                src="./images/hero_luxury_interior_1790450309959.jpg"
                 alt="قبل التشطيب - مرحلة التأسيس"
                 referrerPolicy="no-referrer"
                 className="absolute inset-0 w-full h-full object-cover filter grayscale contrast-125 brightness-50"

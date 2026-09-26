@@ -1,84 +1,641 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>القمة للمقاولات والديكور | ريادة التصميم والتنفيذ والتشطيبات الفاخرة</title>
-    <meta name="description" content="الموقع الرسمي لشركة القمة للمقاولات العامة والديكور والتصميم الداخلي وأعمال التشطيبات الفاخرة وتسليم المفتاح بأعلى معايير الجودة والإتقان." />
-    <meta property="og:title" content="القمة للمقاولات والديكور | ريادة التصميم والتنفيذ والتشطيبات الفاخرة" />
-    <meta property="og:description" content="الموقع الرسمي لشركة القمة للمقاولات العامة والديكور والتصميم الداخلي وأعمال التشطيبات الفاخرة وتسليم المفتاح بأعلى معايير الجودة والإتقان." />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="القمة للمقاولات والديكور" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="القمة للمقاولات والديكور | ريادة التصميم والتنفيذ" />
-    <meta name="twitter:description" content="تنفيذ مشاريع البناء والتشطيب والديكور الفاخر للفلل والقصور والمشاريع التجارية مع الضمان الشامل." />
-
-    <!-- Google Fonts: Cairo & Tajawal -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <!-- Schema.org Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "HomeAndConstructionBusiness",
-      "name": "القمة للمقاولات والديكور",
-      "alternateName": "Al-Qimma Contracting & Decor",
-      "description": "شركة متخصصة في أعمال المقاولات العامة، التصميم الداخلي المعماري، وأعمال التشطيبات الفاخرة وتسليم المفتاح.",
-      "url": "https://alqimma-contracting.com",
-      "telephone": "+966500000000",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "الرياض",
-        "addressCountry": "SA"
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Sunday",
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday"
-        ],
-        "opens": "08:00",
-        "closes": "20:00"
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "خدمات المقاولات والديكور",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "التصميم الداخلي والمعماري 3D"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "التشطيبات الفاخرة وتسليم مفتاح"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "المقاولات العامة والإنشاءات"
-            }
-          }
-        ]
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>القمة للمقاولات والديكور | ريادة التصميم والتنفيذ والتشطيبات الفاخرة</title>
+  <meta name="description" content="الموقع الرسمي لشركة القمة للمقاولات العامة والديكور والتصميم الداخلي وأعمال التشطيبات الفاخرة وتسليم المفتاح بأعلى معايير الجودة والإتقان.">
+  <meta property="og:title" content="القمة للمقاولات والديكور | ريادة التصميم والتنفيذ والتشطيبات الفاخرة">
+  <meta property="og:description" content="الموقع الرسمي لشركة القمة للمقاولات العامة والديكور والتصميم الداخلي وأعمال التشطيبات الفاخرة وتسليم المفتاح بأعلى معايير الجودة والإتقان.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="القمة للمقاولات والديكور">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="القمة للمقاولات والديكور | ريادة التصميم والتنفيذ">
+  <meta name="twitter:description" content="تنفيذ مشاريع البناء والتشطيب والديكور الفاخر للفلل والقصور والمشاريع التجارية مع الضمان الشامل.">
+  
+  <!-- Tailwind CSS CDN for instant styling without build tools -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Cairo & Tajawal -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet with relative path -->
+  <link rel="stylesheet" href="./style.css">
+  
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "القمة للمقاولات والديكور",
+    "alternateName": "Al-Qimma Contracting & Decor",
+    "description": "شركة متخصصة في أعمال المقاولات العامة، التصميم الداخلي المعماري، وأعمال التشطيبات الفاخرة وتسليم المفتاح.",
+    "url": "https://alkemma.salah-logistics.uk",
+    "telephone": "+966500000000",
+    "priceRange": "$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "الرياض",
+      "addressCountry": "SA"
     }
-    </script>
-  </head>
-  <body class="font-cairo bg-stone-950 text-stone-100 antialiased selection:bg-amber-600/30 selection:text-amber-200">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  }
+  </script>
+</head>
+<body class="bg-stone-950 text-stone-100 font-cairo antialiased selection:bg-amber-600/30 selection:text-amber-200">
+
+  <!-- Header / Navigation -->
+  <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-stone-950/80 backdrop-blur-md border-b border-stone-800/80 py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between">
+        
+        <!-- Brand Wordmark -->
+        <a href="#" class="flex items-center gap-3 group text-right">
+          <div class="w-10 h-10 rounded-sm bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center text-stone-950 font-black text-xl shadow-md">
+            ق
+          </div>
+          <span class="text-xl sm:text-2xl font-black tracking-tight text-white group-hover:text-amber-400 transition-colors">
+            القمة للمقاولات والديكور
+          </span>
+        </a>
+
+        <!-- Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-stone-300">
+          <a href="#" class="hover:text-amber-400 transition-colors py-1">الرئيسية</a>
+          <a href="#services" class="hover:text-amber-400 transition-colors py-1">خدماتنا</a>
+          <a href="#portfolio" class="hover:text-amber-400 transition-colors py-1">معرض المشاريع</a>
+          <a href="#before-after" class="hover:text-amber-400 transition-colors py-1">قبل وبعد</a>
+          <a href="#calculator" class="hover:text-amber-400 transition-colors py-1">حاسبة التكلفة</a>
+          <a href="#quality" class="hover:text-amber-400 transition-colors py-1">معايير الجودة</a>
+          <a href="#contact" class="hover:text-amber-400 transition-colors py-1">تواصل معنا</a>
+        </nav>
+
+        <!-- Action Buttons -->
+        <div class="hidden sm:flex items-center gap-3">
+          <a href="https://wa.me/966500000000" target="_blank" class="p-2.5 rounded-lg text-emerald-400 bg-emerald-950/40 border border-emerald-800/50 hover:bg-emerald-900/50 transition-colors" title="واتساب مباشر">
+            💬
+          </a>
+          <button class="open-consultation-btn px-5 py-2.5 text-sm font-semibold text-stone-950 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 rounded-lg shadow-lg shadow-amber-500/10 transition-all whitespace-nowrap">
+            طلب استشارة مجانية
+          </button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="flex lg:hidden">
+          <button id="mobileMenuBtn" class="p-2 text-stone-300 bg-stone-900 border border-stone-800 rounded-lg">
+            ☰
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Mobile Dropdown -->
+      <div id="mobileMenu" class="hidden lg:hidden mt-3 pt-3 pb-4 border-t border-stone-800 space-y-2">
+        <a href="#" class="block px-3 py-2 text-stone-200 hover:text-amber-400">الرئيسية</a>
+        <a href="#services" class="block px-3 py-2 text-stone-200 hover:text-amber-400">خدماتنا</a>
+        <a href="#portfolio" class="block px-3 py-2 text-stone-200 hover:text-amber-400">معرض المشاريع</a>
+        <a href="#before-after" class="block px-3 py-2 text-stone-200 hover:text-amber-400">قبل وبعد</a>
+        <a href="#calculator" class="block px-3 py-2 text-stone-200 hover:text-amber-400">حاسبة التكلفة</a>
+        <a href="#quality" class="block px-3 py-2 text-stone-200 hover:text-amber-400">معايير الجودة</a>
+        <a href="#contact" class="block px-3 py-2 text-stone-200 hover:text-amber-400">تواصل معنا</a>
+        <button class="open-consultation-btn w-full mt-2 py-3 text-center text-sm font-bold text-stone-950 bg-amber-400 rounded-lg">
+          طلب استشارة وعرض سعر
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative min-h-[90vh] flex items-center justify-center pt-28 pb-16 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <img src="./images/hero_luxury_interior_1790450309959.jpg" alt="القمة للمقاولات والديكور" class="w-full h-full object-cover filter brightness-75">
+      <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/80 to-stone-950/50"></div>
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-8">
+      <div class="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold tracking-wider text-amber-400 mb-6 uppercase">
+        ✦ الريادة في التصميم المعماري والتشطيبات الفاخرة وتسليم المفتاح
+      </div>
+
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight max-w-4xl mx-auto mb-6">
+        نبني الرؤية الهندسية.. ونُجسد الفخامة بأعلى معايير الإتقان
+      </h1>
+
+      <p class="text-base sm:text-lg lg:text-xl text-stone-300 max-w-3xl mx-auto mb-10 leading-relaxed font-normal">
+        شركة القمة للمقاولات والديكور تجمع بين روعة الابتكار المعماري ودقة التنفيذ الإنشائي.
+        نقدم حلولاً متكاملة لتصميم وتشطيب الفلل، القصور، والمشاريع التجارية مع ضمان هيكلي معتمد وإشراف يومي متواصل.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto mb-16">
+        <button class="open-consultation-btn w-full sm:w-auto px-8 py-4 text-base font-bold text-stone-950 bg-amber-400 hover:bg-amber-300 rounded-lg shadow-xl shadow-amber-500/20 transition-all">
+          طلب عرض سعر واستشارة مجانية
+        </button>
+        <a href="#portfolio" class="w-full sm:w-auto px-8 py-4 text-base font-semibold text-stone-200 hover:text-white bg-stone-900/80 border border-stone-700/80 rounded-lg">
+          استعراض المشاريع السابقة
+        </a>
+      </div>
+
+      <!-- Trust Metrics -->
+      <div class="pt-8 border-t border-stone-800/80 grid grid-cols-2 md:grid-cols-4 gap-6 text-center max-w-4xl mx-auto">
+        <div>
+          <div class="text-2xl sm:text-3xl font-extrabold text-amber-400 font-mono">+14</div>
+          <div class="text-xs sm:text-sm text-stone-300">عاماً من الخبرة والتميز</div>
+        </div>
+        <div>
+          <div class="text-2xl sm:text-3xl font-extrabold text-amber-400 font-mono">+380</div>
+          <div class="text-xs sm:text-sm text-stone-300">مشروعاً تم تسليمه</div>
+        </div>
+        <div>
+          <div class="text-2xl sm:text-3xl font-extrabold text-amber-400 font-mono">100%</div>
+          <div class="text-xs sm:text-sm text-stone-300">تطابق مع التصاميم 3D</div>
+        </div>
+        <div>
+          <div class="text-2xl sm:text-3xl font-extrabold text-amber-400 font-mono">10 سنوات</div>
+          <div class="text-xs sm:text-sm text-stone-300">ضمان معتمد على الهيكل</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-24 bg-stone-900/60 border-t border-b border-stone-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <div class="text-xs sm:text-sm font-semibold text-amber-400 uppercase mb-3">خدمات متكاملة من التخطيط إلى التسليم</div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">حلول هندسية ومعمارية استثنائية لكافة مشاريعك</h2>
+        <p class="text-stone-300 text-sm sm:text-base">نكرس كفاءتنا وخبراتنا الهندسية لتنفيذ كافة مراحل المقاولات والتشطيب بأدق تفاصيل الجودة والكود السعودي للمباني.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div class="lg:col-span-5 space-y-3">
+          <button data-service="01" class="service-tab-btn w-full text-right p-5 rounded-xl border bg-stone-800/90 border-amber-500/60 transition-all flex items-start gap-4">
+            <span class="text-lg font-mono font-bold text-amber-400">01.</span>
+            <div>
+              <h3 class="text-base font-bold text-white">التصميم الداخلي والمعماري 3D</h3>
+              <p class="text-xs text-stone-400 mt-1">دراسات فراغية، توزيع إنارة، ومخططات تنفيذية 8K.</p>
+            </div>
+          </button>
+
+          <button data-service="02" class="service-tab-btn w-full text-right p-5 rounded-xl border bg-stone-950/60 border-stone-800 transition-all flex items-start gap-4">
+            <span class="text-lg font-mono font-bold text-amber-400">02.</span>
+            <div>
+              <h3 class="text-base font-bold text-stone-200">أعمال التشطيبات الفاخرة (تسليم مفتاح)</h3>
+              <p class="text-xs text-stone-400 mt-1">تشطيبات ديلوكس، رخام مستورد، ودهانات إيطالية عصرية.</p>
+            </div>
+          </button>
+
+          <button data-service="03" class="service-tab-btn w-full text-right p-5 rounded-xl border bg-stone-950/60 border-stone-800 transition-all flex items-start gap-4">
+            <span class="text-lg font-mono font-bold text-amber-400">03.</span>
+            <div>
+              <h3 class="text-base font-bold text-stone-200">المقاولات العامة والإنشاءات</h3>
+              <p class="text-xs text-stone-400 mt-1">تنفيذ الهياكل الخرسانية (عظم) والعوازل المعتمدة.</p>
+            </div>
+          </button>
+
+          <button data-service="04" class="service-tab-btn w-full text-right p-5 rounded-xl border bg-stone-950/60 border-stone-800 transition-all flex items-start gap-4">
+            <span class="text-lg font-mono font-bold text-amber-400">04.</span>
+            <div>
+              <h3 class="text-base font-bold text-stone-200">الديكورات والتكسيات الجدارية الحديثة</h3>
+              <p class="text-xs text-stone-400 mt-1">بديل الخشب والرخام، الجبس بورد، والإنارة الذكية.</p>
+            </div>
+          </button>
+
+          <button data-service="05" class="service-tab-btn w-full text-right p-5 rounded-xl border bg-stone-950/60 border-stone-800 transition-all flex items-start gap-4">
+            <span class="text-lg font-mono font-bold text-amber-400">05.</span>
+            <div>
+              <h3 class="text-base font-bold text-stone-200">الواجهات الخارجية وتنسيق اللاندسكيب</h3>
+              <p class="text-xs text-stone-400 mt-1">حجر طبيعي ميكانيكي، مسطحات خضراء، ومسابح إنفينيتي.</p>
+            </div>
+          </button>
+
+          <button data-service="06" class="service-tab-btn w-full text-right p-5 rounded-xl border bg-stone-950/60 border-stone-800 transition-all flex items-start gap-4">
+            <span class="text-lg font-mono font-bold text-amber-400">06.</span>
+            <div>
+              <h3 class="text-base font-bold text-stone-200">الترميم وإعادة التأهيل الشامل</h3>
+              <p class="text-xs text-stone-400 mt-1">تجديد الفلل والمباني القديمة وتحويلها لتحف عصرية.</p>
+            </div>
+          </button>
+        </div>
+
+        <!-- Spotlight Service Details -->
+        <div class="lg:col-span-7 bg-stone-950 border border-stone-800 rounded-2xl p-6 sm:p-10 shadow-2xl">
+          <div class="flex items-center gap-4 pb-6 border-b border-stone-800 mb-6">
+            <span id="activeServiceNumber" class="text-3xl font-mono font-extrabold text-amber-400">01</span>
+            <div>
+              <div class="text-xs text-stone-400">الخدمة الهندسية المعتمدة</div>
+              <h3 id="activeServiceTitle" class="text-xl sm:text-2xl font-black text-white">التصميم الداخلي والمعماري 3D</h3>
+            </div>
+          </div>
+
+          <p id="activeServiceSummary" class="text-stone-300 text-base leading-relaxed mb-8">
+            نحول أفكاركم إلى مخططات واقعية مبهرة مع دراسات هندسية فراغية دقيقة ومطابقة للكود السعودي.
+          </p>
+
+          <div class="mb-8">
+            <div class="text-sm font-bold text-amber-300 mb-4">نطاق العمل ومخرجات الخدمة:</div>
+            <ul id="activeServiceDetails" class="space-y-3.5">
+              <li class="flex items-start gap-3 text-stone-200 text-sm">
+                <span class="text-amber-400">✓</span>
+                <span>مخططات معمارية وتنفيذية تفصيلية (Shop Drawings)</span>
+              </li>
+              <li class="flex items-start gap-3 text-stone-200 text-sm">
+                <span class="text-amber-400">✓</span>
+                <span>تصاميم ثلاثية الأبعاد بجودة 8K عالية الواقعية والوضوح</span>
+              </li>
+              <li class="flex items-start gap-3 text-stone-200 text-sm">
+                <span class="text-amber-400">✓</span>
+                <span>دراسة وتوزيع الإضاءة المعمارية وهندسة الفراغات</span>
+              </li>
+              <li class="flex items-start gap-3 text-stone-200 text-sm">
+                <span class="text-amber-400">✓</span>
+                <span>جداول حصر الكميات والمواصفات الفنية والمواد (BOQ)</span>
+              </li>
+            </ul>
+          </div>
+
+          <button class="open-consultation-btn w-full sm:w-auto px-6 py-3 text-sm font-bold text-stone-950 bg-amber-400 hover:bg-amber-300 rounded-lg transition-all">
+            طلب دراسة هندسية وعرض سعر
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Gallery -->
+  <section id="portfolio" class="py-24 bg-stone-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+        <div>
+          <div class="text-xs sm:text-sm font-semibold text-amber-400 uppercase mb-2">سجل الإنجاز والتميز الإنشائي</div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">معرض أبرز مشاريعنا السابقة</h2>
+          <p class="text-stone-400 text-sm mt-2">تصفح نماذج حية لمشاريع قمنا بتصميمها وتنفيذها بأعلى معايير الإتقان والفخامة.</p>
+        </div>
+
+        <div class="flex items-center gap-1.5 p-1.5 bg-stone-900 border border-stone-800 rounded-xl overflow-x-auto">
+          <button data-category="all" class="portfolio-filter-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg bg-amber-400 text-stone-950">كافة المشاريع</button>
+          <button data-category="villas" class="portfolio-filter-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg text-stone-300 hover:text-white">فلل وقصور</button>
+          <button data-category="interior" class="portfolio-filter-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg text-stone-300 hover:text-white">ديكور وصالونات</button>
+          <button data-category="commercial" class="portfolio-filter-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg text-stone-300 hover:text-white">مشاريع تجارية ومكاتب</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div data-category="villas" class="project-card bg-stone-900/70 border border-stone-800 rounded-2xl overflow-hidden flex flex-col">
+          <div class="relative aspect-[4/3] overflow-hidden">
+            <img src="./images/project_luxury_palace_1790450321881.jpg" alt="قصر الملقا المعاصر" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-xs text-stone-400 mb-2">فلل وقصور · الرياض · 2025</div>
+              <h3 class="text-lg font-bold text-white mb-2">قصر الملقا المعاصر</h3>
+              <p class="text-xs text-stone-400 line-clamp-2 leading-relaxed mb-4">تنفيذ كامل لأعمال الإنشاءات العظم والتشطيب الفاخر بنظام تسليم المفتاح مع حجر ترافرتين ومسبح إنفينيتي.</p>
+            </div>
+            <div class="pt-4 border-t border-stone-800 flex items-center justify-between text-xs">
+              <span class="text-stone-400">المساحة: <strong class="text-amber-300">1,450 م²</strong></span>
+              <button class="open-consultation-btn text-amber-400 hover:underline" data-service="مشروع قصر الملقا">طلب مشروع مماثل ←</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div data-category="interior" class="project-card bg-stone-900/70 border border-stone-800 rounded-2xl overflow-hidden flex flex-col">
+          <div class="relative aspect-[4/3] overflow-hidden">
+            <img src="./images/project_deluxe_majlis_1790450334131.jpg" alt="صالون ومجلس ريزيدنس الفاخر" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-xs text-stone-400 mb-2">ديكور وصالونات · حي النخيل · 2025</div>
+              <h3 class="text-lg font-bold text-white mb-2">صالون ومجلس ريزيدنس الفاخر</h3>
+              <p class="text-xs text-stone-400 line-clamp-2 leading-relaxed mb-4">ديكورات داخلية بنيوكلاسيك معاصر، خشب جوز مضلع، رخام أرماني جري وإنارة مخفية مهدئة.</p>
+            </div>
+            <div class="pt-4 border-t border-stone-800 flex items-center justify-between text-xs">
+              <span class="text-stone-400">المساحة: <strong class="text-amber-300">480 م²</strong></span>
+              <button class="open-consultation-btn text-amber-400 hover:underline" data-service="مشروع صالون ريزيدنس">طلب مشروع مماثل ←</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div data-category="commercial" class="project-card bg-stone-900/70 border border-stone-800 rounded-2xl overflow-hidden flex flex-col">
+          <div class="relative aspect-[4/3] overflow-hidden">
+            <img src="./images/project_executive_office_1790450345406.jpg" alt="المقر الإداري التنفيذي" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-xs text-stone-400 mb-2">مشاريع تجارية · طريق الملك فهد · 2026</div>
+              <h3 class="text-lg font-bold text-white mb-2">المقر الإداري التنفيذي لشركة استثمارية</h3>
+              <p class="text-xs text-stone-400 line-clamp-2 leading-relaxed mb-4">قواطع زجاجية برونزية عازلة للصوت، أنظمة مؤتمرات ذكية وتشطيبات خشبية راقية.</p>
+            </div>
+            <div class="pt-4 border-t border-stone-800 flex items-center justify-between text-xs">
+              <span class="text-stone-400">المساحة: <strong class="text-amber-300">920 م²</strong></span>
+              <button class="open-consultation-btn text-amber-400 hover:underline" data-service="مشروع المقر الإداري">طلب مشروع مماثل ←</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Before & After Comparison Slider -->
+  <section id="before-after" class="py-24 bg-stone-900/40 border-t border-stone-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center mb-14">
+        <div class="text-xs sm:text-sm font-semibold text-amber-400 uppercase mb-3">الفارق الحقيقي في جودة التنفيذ</div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">شاهد تحول المساحات من العظم إلى قمة الفخامة</h2>
+        <p class="text-stone-300 text-sm">اسحب المؤشر لليمين واليسار لمشاهدة التحول الاستثنائي بين مرحلة الهيكل الإنشائي والتشطيب النهائي.</p>
+      </div>
+
+      <div class="max-w-5xl mx-auto">
+        <div id="baContainer" class="ba-container relative h-[380px] sm:h-[480px] rounded-2xl border border-stone-800 shadow-2xl">
+          <!-- After Image -->
+          <img src="./images/hero_luxury_interior_1790450309959.jpg" alt="بعد التشطيب" class="w-full h-full object-cover">
+
+          <!-- Before Layer (Clipped) -->
+          <div id="baBeforeLayer" class="ba-before-layer w-1/2">
+            <img src="./images/hero_luxury_interior_1790450309959.jpg" alt="قبل التشطيب" class="w-full h-full object-cover filter grayscale contrast-125 brightness-50" style="max-width: none; width: 1024px;">
+            <div class="absolute inset-0 bg-stone-900/50 mix-blend-multiply"></div>
+          </div>
+
+          <!-- Handle -->
+          <div id="baHandle" class="ba-handle left-1/2">
+            <div class="ba-knob">⇄</div>
+          </div>
+
+          <div class="absolute bottom-6 right-6 bg-stone-950/80 px-4 py-2 rounded-lg text-xs font-bold text-white border border-stone-700">قبل: مرحلة التأسيس والهيكل</div>
+          <div class="absolute bottom-6 left-6 bg-amber-500/90 px-4 py-2 rounded-lg text-xs font-bold text-stone-950 border border-amber-400">بعد: التشطيب الديلوكس النهائي</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Smart Cost Calculator -->
+  <section id="calculator" class="py-24 bg-stone-950 border-t border-stone-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center mb-14">
+        <div class="text-xs sm:text-sm font-semibold text-amber-400 uppercase mb-3">شفافية تامة ودقة في التسعير</div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">حاسبة التكلفة والمدة التقديرية لمشروعك</h2>
+        <p class="text-stone-300 text-sm">حدد مواصفات ومساحة عقارك للحصول على دراسة فورية لمتوسط التكلفة وجدول التنفيذ الزمني.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-6xl mx-auto">
+        <!-- Controls -->
+        <div class="lg:col-span-7 bg-stone-900/60 border border-stone-800 p-6 sm:p-8 rounded-2xl space-y-6">
+          <div>
+            <label class="block text-sm font-bold text-stone-200 mb-3">1. نوع العقار:</label>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+              <button data-prop="villa" class="prop-type-btn p-3 text-xs font-bold rounded-xl border bg-amber-400 text-stone-950 border-amber-400">فيلا سكنية</button>
+              <button data-prop="apartment" class="prop-type-btn p-3 text-xs font-bold rounded-xl border bg-stone-950/70 border-stone-800 text-stone-300">شقة / بنتهاوس</button>
+              <button data-prop="office" class="prop-type-btn p-3 text-xs font-bold rounded-xl border bg-stone-950/70 border-stone-800 text-stone-300">مكتب إداري</button>
+              <button data-prop="commercial" class="prop-type-btn p-3 text-xs font-bold rounded-xl border bg-stone-950/70 border-stone-800 text-stone-300">تجاري / عيادة</button>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <label class="text-sm font-bold text-stone-200">2. المساحة الإجمالية:</label>
+              <span id="calcAreaValue" class="text-lg font-black text-amber-400 font-mono">450 م²</span>
+            </div>
+            <input id="calcArea" type="range" min="80" max="2000" step="20" value="450" class="w-full h-2.5 bg-stone-950 rounded-lg appearance-none cursor-pointer accent-amber-400">
+            <div class="flex justify-between gap-1 mt-2">
+              <button data-area="150" class="preset-area-btn px-2 py-1 text-xs border border-stone-800 rounded text-stone-400">150 م²</button>
+              <button data-area="300" class="preset-area-btn px-2 py-1 text-xs border border-stone-800 rounded text-stone-400">300 م²</button>
+              <button data-area="500" class="preset-area-btn px-2 py-1 text-xs border border-stone-800 rounded text-stone-400">500 م²</button>
+              <button data-area="850" class="preset-area-btn px-2 py-1 text-xs border border-stone-800 rounded text-stone-400">850 م²</button>
+              <button data-area="1400" class="preset-area-btn px-2 py-1 text-xs border border-stone-800 rounded text-stone-400">1400 م²</button>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-bold text-stone-200 mb-3">3. باقة التشطيب:</label>
+            <div class="space-y-2.5">
+              <div data-grade="standard" class="grade-select-card p-3 rounded-xl border border-stone-800 bg-stone-950/60 cursor-pointer flex justify-between">
+                <div>
+                  <div class="text-sm font-bold text-stone-200">باقة لوكس الفاخرة</div>
+                  <div class="text-xs text-stone-400">بورسلان إسباني، جوتن، أطقم جروهي، أسقف جبس مستوية.</div>
+                </div>
+                <span class="text-xs text-stone-300 font-mono">950 ر.س/م²</span>
+              </div>
+              <div data-grade="super" class="grade-select-card p-3 rounded-xl border border-amber-500/80 bg-amber-400/10 cursor-pointer flex justify-between">
+                <div>
+                  <div class="text-sm font-bold text-amber-300">باقة سوبر ديلوكس VIP</div>
+                  <div class="text-xs text-stone-400">رخام طبيعي، بديل خشب ورخام، إنارة مخفية مانعة للتوهج.</div>
+                </div>
+                <span class="text-xs text-amber-300 font-mono">1,650 ر.س/م²</span>
+              </div>
+              <div data-grade="royal" class="grade-select-card p-3 rounded-xl border border-stone-800 bg-stone-950/60 cursor-pointer flex justify-between">
+                <div>
+                  <div class="text-sm font-bold text-stone-200">باقة ألترا لاكشري الملكية</div>
+                  <div class="text-xs text-stone-400">رخام ستاتوريو إيطالي، أخشاب جوز صولد، تكييف مخفي متطور.</div>
+                </div>
+                <span class="text-xs text-stone-300 font-mono">2,800 ر.س/م²</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-bold text-stone-200 mb-2">4. بنود إضافية:</label>
+            <div class="grid grid-cols-2 gap-2 text-xs text-stone-300">
+              <label class="flex items-center gap-2 p-2 bg-stone-950 rounded border border-stone-800">
+                <input id="addon3D" type="checkbox" checked class="accent-amber-400"> تصاميم 3D ومخططات
+              </label>
+              <label class="flex items-center gap-2 p-2 bg-stone-950 rounded border border-stone-800">
+                <input id="addonSmart" type="checkbox" checked class="accent-amber-400"> أنظمة ذكية Smart Home
+              </label>
+              <label class="flex items-center gap-2 p-2 bg-stone-950 rounded border border-stone-800">
+                <input id="addonCladding" type="checkbox" checked class="accent-amber-400"> تكسيات رخام وخشب
+              </label>
+              <label class="flex items-center gap-2 p-2 bg-stone-950 rounded border border-stone-800">
+                <input id="addonLandscape" type="checkbox" class="accent-amber-400"> لاندسكيب ومسبح
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Result -->
+        <div class="lg:col-span-5 bg-stone-900 border border-stone-800 rounded-2xl p-6 sm:p-8 flex flex-col justify-between">
+          <div>
+            <div class="text-xs text-amber-400 font-bold uppercase mb-1">ملخص التقدير الهندسي المبدئي</div>
+            <h3 class="text-xl font-bold text-white mb-6">مواصفات مشروعك المحدد</h3>
+
+            <div class="bg-stone-950 p-5 rounded-xl border border-stone-800 mb-6">
+              <div class="text-xs text-stone-400 mb-1">إجمالي التكلفة التقديرية (تقريباً)</div>
+              <div class="text-3xl sm:text-4xl font-black text-amber-400 font-mono">
+                <span id="calcTotalCost">904,500</span> <span class="text-sm font-bold text-stone-300">ر.س</span>
+              </div>
+              <div class="text-xs text-stone-400 mt-2 flex justify-between border-t border-stone-800 pt-2">
+                <span>متوسط سعر المتر:</span>
+                <span id="calcRatePerM2" class="font-mono text-stone-200">2,010 ر.س / م²</span>
+              </div>
+            </div>
+
+            <div class="space-y-3 text-xs sm:text-sm">
+              <div class="flex justify-between py-2 border-b border-stone-800">
+                <span class="text-stone-400">المدة الزمنية المتوقعة:</span>
+                <span id="calcDuration" class="font-bold text-white">حوالي 8 أشهر عمل</span>
+              </div>
+              <div class="flex justify-between py-2 border-b border-stone-800">
+                <span class="text-stone-400">فترة الضمان الهندسي:</span>
+                <span id="calcWarranty" class="font-bold text-amber-400">10 سنوات ضمان</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-3 pt-6 border-t border-stone-800 mt-6">
+            <a id="btnWhatsAppQuote" href="#" target="_blank" class="w-full py-3 text-sm font-bold text-stone-950 bg-emerald-400 hover:bg-emerald-300 rounded-xl flex items-center justify-center gap-2">
+              <span>💬 إرسال التقدير عبر الواتساب فوراً</span>
+            </a>
+            <button class="open-consultation-btn w-full py-3 text-sm font-bold text-stone-200 bg-stone-800 hover:bg-stone-700 rounded-xl">
+              حجز موعد معاينة ميدانية مجانية
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-24 bg-stone-900/40 border-t border-stone-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <div class="text-xs sm:text-sm font-semibold text-amber-400 uppercase mb-3">نحن في انتظار بدء مشروعك القادم</div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">تواصل معنا بسهولة واحصل على استشارة هندسية</h2>
+        <p class="text-stone-300 text-sm">فريقنا الهندسي جاهز للرد على استفساراتكم وترتيب زيارة معاينة لموقعكم خلال ساعات العمل.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        <div class="lg:col-span-5 space-y-4">
+          <div class="bg-stone-950 border border-stone-800 p-6 rounded-2xl">
+            <div class="text-xs text-stone-400">واتساب مباشر</div>
+            <a href="https://wa.me/966500000000" target="_blank" class="text-base font-bold text-emerald-400 hover:underline block mt-1">
+              +966 50 000 0000 (محادثة فورية)
+            </a>
+          </div>
+
+          <div class="bg-stone-950 border border-stone-800 p-6 rounded-2xl">
+            <div class="text-xs text-stone-400">الرقم الموحد</div>
+            <a href="tel:+966500000000" class="text-base font-bold text-white hover:text-amber-400 block mt-1 font-mono dir-ltr text-right">
+              +966 50 000 0000
+            </a>
+          </div>
+
+          <div class="bg-stone-950 border border-stone-800 p-6 rounded-2xl">
+            <div class="text-xs text-stone-400">المقر الرئيسي</div>
+            <div class="text-sm font-bold text-white mt-1">الرياض، طريق الملك فهد، برج القمة التنفيذي</div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 bg-stone-950 border border-stone-800 p-6 sm:p-8 rounded-2xl">
+          <form id="mainContactForm" class="space-y-4">
+            <h3 class="text-xl font-bold text-white mb-2">طلب عرض سعر واستشارة هندسية</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold text-stone-300 mb-1">الاسم الكامل *</label>
+                <input type="text" required placeholder="الاسم الكريم" class="w-full px-4 py-3 rounded-xl bg-stone-900 border border-stone-800 text-white text-sm focus:border-amber-400 focus:outline-none">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-stone-300 mb-1">رقم الجوال *</label>
+                <input type="tel" required placeholder="05XXXXXXXX" class="w-full px-4 py-3 rounded-xl bg-stone-900 border border-stone-800 text-white text-sm focus:border-amber-400 focus:outline-none dir-ltr text-right">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold text-stone-300 mb-1">المدينة</label>
+                <select class="w-full px-4 py-3 rounded-xl bg-stone-900 border border-stone-800 text-white text-sm focus:border-amber-400 focus:outline-none">
+                  <option>الرياض</option>
+                  <option>جدة ومكة</option>
+                  <option>المنطقة الشرقية</option>
+                  <option>القصيم</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-stone-300 mb-1">المساحة التقريبية (م²)</label>
+                <input type="number" placeholder="450" class="w-full px-4 py-3 rounded-xl bg-stone-900 border border-stone-800 text-white text-sm focus:border-amber-400 focus:outline-none font-mono">
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-stone-300 mb-1">نوع الخدمة</label>
+              <select class="w-full px-4 py-3 rounded-xl bg-stone-900 border border-stone-800 text-white text-sm focus:border-amber-400 focus:outline-none">
+                <option>تشطيبات فاخرة وتسليم مفتاح</option>
+                <option>التصميم الداخلي والمعماري 3D</option>
+                <option>المقاولات العامة والإنشاءات (عظم)</option>
+                <option>ديكورات وتكسيات جدارية</option>
+                <option>واجهات ولاندسكيب ومسابح</option>
+              </select>
+            </div>
+
+            <button type="submit" class="w-full py-4 text-sm font-bold text-stone-950 bg-amber-400 hover:bg-amber-300 rounded-xl transition-all">
+              إرسال طلب العرض والاستشارة مجاناً
+            </button>
+          </form>
+
+          <div id="mainContactSuccess" class="hidden text-center py-10 space-y-4">
+            <div class="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto text-2xl">✓</div>
+            <h4 class="text-xl font-bold text-white">تم استلام طلبكم بنجاح!</h4>
+            <p class="text-xs text-stone-300">رقم الطلب المرجعي: <span id="mainTicketCode" class="font-mono text-amber-400 font-bold">QIMMA-8841</span></p>
+            <p class="text-xs text-stone-400">سيتواصل معكم مهندسنا المختص في أقرب وقت.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-stone-950 border-t border-stone-800 text-stone-400 text-xs py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>جميع الحقوق محفوظة © 2026 شركة القمة للمقاولات والديكور.</div>
+      <button id="backToTopBtn" class="hover:text-amber-400 transition-colors">↑ العودة للأعلى</button>
+    </div>
+  </footer>
+
+  <!-- Consultation Modal -->
+  <div id="consultationModal" class="modal-backdrop">
+    <div class="modal-content p-6 sm:p-8 relative">
+      <button id="closeConsultationBtn" class="absolute top-5 left-5 text-stone-400 hover:text-white text-lg">✕</button>
+      
+      <form id="consultationForm" class="space-y-4">
+        <h3 class="text-xl font-bold text-white">طلب استشارة هندسية مجانية</h3>
+        <p class="text-xs text-stone-400 mb-4">املأ البيانات وسيتواصل معك مهندس معتمد من شركة القمة.</p>
+        
+        <div>
+          <label class="block text-xs font-semibold text-stone-300 mb-1">الاسم الكريم *</label>
+          <input type="text" required placeholder="الاسم" class="w-full px-4 py-2.5 rounded-xl bg-stone-900 border border-stone-800 text-white text-sm focus:border-amber-400 focus:outline-none">
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-stone-300 mb-1">رقم الجوال *</label>
+          <input type="tel" required placeholder="05XXXXXXXX" class="w-full px-4 py-2.5 rounded-xl bg-stone-900 border border-stone-800 text-white text-sm focus:border-amber-400 focus:outline-none dir-ltr text-right">
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-stone-300 mb-1">الخدمة المطلوبة</label>
+          <select id="modalService" class="w-full px-4 py-2.5 rounded-xl bg-stone-900 border border-stone-800 text-white text-sm focus:border-amber-400 focus:outline-none">
+            <option value="تشطيب تسليم مفتاح">تشطيب تسليم مفتاح فاخر</option>
+            <option value="تصميم داخلي 3D">تصميم داخلي ومعماري 3D</option>
+            <option value="مقاولات عامة وعظم">مقاولات عامة وإنشاءات (عظم)</option>
+            <option value="ديكورات وتكسيات">ديكورات وتكسيات جدارية</option>
+          </select>
+        </div>
+
+        <button type="submit" class="w-full py-3.5 text-sm font-bold text-stone-950 bg-amber-400 hover:bg-amber-300 rounded-xl transition-all">
+          تأكيد طلب الاستشارة
+        </button>
+      </form>
+
+      <div id="consultationSuccess" class="hidden text-center py-8 space-y-3">
+        <div class="text-3xl text-emerald-400">✓</div>
+        <h4 class="text-lg font-bold text-white">تم حجز موعد الاستشارة!</h4>
+        <p class="text-xs text-stone-300">رقم التذكرة: <span id="modalTicketCode" class="font-mono text-amber-400 font-bold"></span></p>
+        <p class="text-xs text-stone-400">سيتواصل معكم مهندسنا لتحديد موعد المعاينة الميدانية.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File with relative path -->
+  <script type="module" src="./script.js"></script>
+</body>
 </html>
 
