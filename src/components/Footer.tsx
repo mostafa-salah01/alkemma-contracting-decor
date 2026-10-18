@@ -107,8 +107,13 @@ export const Footer: React.FC = () => {
 
         {/* Bottom bar with Back-to-Top */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-stone-400">
-          <div>
-            جميع الحقوق محفوظة © {new Date().getFullYear()} شركة القمة للمقاولات والديكور.
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-right">
+            <div>
+              جميع الحقوق محفوظة © {new Date().getFullYear()} شركة القمة للمقاولات والديكور.
+            </div>
+            <div className="text-amber-400/90 font-medium">
+              صنع بواسطة <span className="font-bold text-amber-400">Webstak</span> | <a href="tel:01205798302" className="hover:underline font-mono dir-ltr">01205798302</a>
+            </div>
           </div>
 
           <div className="flex items-center gap-6">
